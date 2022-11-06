@@ -1,0 +1,21 @@
+.services{
+  display: flex;
+  background-color: pink;
+  padding: 50px;
+  justify-content: center;
+  gap: 5rem;
+  height: 500px;
+}
+.service__wrapper{
+  color: purple;
+  text-align: center;
+}
+.services-image{
+  margin: 30px 0;
+  width: 13rem;
+  height: 13rem;
+}
+.service__wrapper p{
+  font-size: 1.2rem;
+  line-height: 25px;
+}

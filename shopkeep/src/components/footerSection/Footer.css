@@ -1,0 +1,29 @@
+.footer__container{
+  background-color: pink;
+  padding: 3rem 1.5rem;
+}
+.footer-logo{
+  width: 15rem;
+  
+}
+.footer__row{
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footer-content-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Circular Std', sans-serif;
+  
+}
+.footer-link{
+  text-decoration: none;
+  color: purple;
+  font-size: 1.1rem;
+}
+.footer-address{
+  color: purple;
+}

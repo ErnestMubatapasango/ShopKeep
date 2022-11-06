@@ -1,0 +1,24 @@
+.product__wrapper{
+  background-color: #ee9ca7;
+  padding: 100px 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 4rem;
+  text-align: center;
+  height: 1000px;
+}
+.product-image{
+  width:12rem;
+  height: 12rem;
+  padding: 0px;
+  margin: 0px;
+}
+.product-title{
+  margin: 10px 0;
+  font-size: 1.8rem;
+  color: purple;
+}
+.product-description{
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}

@@ -1,0 +1,39 @@
+.review__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 70px;
+  background-color: #ee9ca7;
+  gap: 1.5rem;
+  height: 400px;
+}
+.reviewee-image{
+  border-radius: 50%;
+  width: 7rem;
+  border: 1px solid purple;
+  
+}
+.review__wrapper{
+  background-color: white;
+  color: black;
+  padding: 20px 20px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 20px ;
+}
+.reviewee h2 {
+  color:white;
+  font-weight: 600;
+}
+.reviewee__title{
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+}
+.stars{
+  border: none;
+  width: 120px;
+  margin: 0;
+  padding: 0;
+}
