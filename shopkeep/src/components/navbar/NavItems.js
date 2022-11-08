@@ -1,4 +1,4 @@
-import {AiOutlineDown} from 'react-icons/ai'
+
 
 export const NavItems = [
   {

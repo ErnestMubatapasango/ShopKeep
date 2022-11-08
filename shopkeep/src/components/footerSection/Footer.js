@@ -14,7 +14,7 @@ function Footer() {
             </p>
           </div>
 
-          <div className='footer-col'>
+          <div className='footer__col'>
             <h3 className='footer-content-title'>Product</h3>
             <ul>
              {
@@ -31,7 +31,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className='footer-col'>
+          <div className='footer__col'>
             <h3 className='footer-content-title'>Company</h3>
             <ul>
               <li> 
@@ -47,7 +47,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className='footer-col'>
+          <div className='footer__col'>
             <h3 className='footer-content-title'>Our Office</h3>
             <p className='footer-address'>14620 Uxamu Road<br/> Selborne Park<br/> Bulawayo</p>
           </div>

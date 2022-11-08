@@ -1,0 +1,75 @@
+.pricing__container{
+  background-color: pink;
+  text-align: center;
+  padding: 4rem 0;
+}
+.pricing__title {
+  color: rgb(114, 40, 114);
+}
+
+.price__package{
+  width: 330px;
+  min-height: 400px;
+  margin: 50px 20px;
+  border: 1px solid purple;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: purple;
+  color: orange;
+  box-shadow: 10px 10px 10px  rgb(110, 59, 110);
+}
+
+hr{
+  color: black;
+  margin: 0 50px;
+}
+.prices__wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.price__package h3{
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+.price__package p{
+  font-size: 1rem;
+  margin-bottom: .8rem ;
+}
+.package{
+  margin: 10px 50px;
+  display: inline-block;
+  width: 300px;
+  text-align:left;
+  
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.price-content{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  flex-direction: column;
+}
+.package-amount{
+  background-color: white;
+  margin: 5px 40px;
+  padding: 5px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 760px) {
+  .pricing__title{
+    font-size: 2.2rem;
+  }
+  .pricing__description{
+    font-size: 1rem;
+    color: purple;
+    margin-top: 20px;
+  }
+}

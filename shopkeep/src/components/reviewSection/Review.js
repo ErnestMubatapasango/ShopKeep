@@ -1,20 +1,57 @@
 import React from 'react'
 import "./Review.css"
+import {ReviewItems} from './ReviewItems'
+import {MdOutlineArrowForwardIos, MdOutlineArrowBackIosNew} from "react-icons/md"
+
 function Review() {
+
+  const [ currentReview, setCurrentReview] = React.useState(0);
+  const length = ReviewItems.length;
+
+  const nextSlide =() => {
+    setCurrentReview(currentReview === length -1 ? 0 : currentReview + 1)
+  }
+
+  const prevSlide = () => {
+    setCurrentReview(currentReview === 0 ? length -1 : currentReview -1 )
+  }
   return (
-    <div className='review__container'>
-      <circle>
-      <img  className="reviewee-image" src="tawanda.png"  alt=""/>
-      </circle>
-      <div className='reviewee'>
-        <div className='review__wrapper'>
-          <img className='stars' src='star-image.png' alt=''/>
-          <p>I’ve been using Shopkeep since 2014. It does everything you<br/> need and nothing you don’t. I wouldn’t consider any other<br/> invoicing software.</p>
-        </div>
-        <h2>Tawanda Mubatapasango</h2>
-        <p className='reviewee__title'>CEO at DeveloMack</p>
+    
+      <div className='review__container'>
+        <MdOutlineArrowBackIosNew className='left-arrow' onClick={prevSlide}/>
+        <MdOutlineArrowForwardIos className='right-arrow' onClick={nextSlide}/>
+        {
+      ReviewItems.map((item, index) => {
+        return(
+          
+            <div key={index} className={index === currentReview ? 'slider active' : 'slider'} >
+              {
+                index === currentReview && (
+                <div className='review__wrapper'>
+                  <circle>
+                    <img  className="review-image" src={item.user_image_url}  alt=""/>
+                  </circle>
+                  <div className='ratings'>
+                    <div className='rating__wrapper'>
+                      <img className='stars' src={item.star_image} alt=''/>
+                      <p className='rating-description'>{item.description}</p>
+                    </div>
+                    <h2 className='rating__title'>{item.username}</h2>
+                    <p className='rating__job-title'>{item.user_title}</p>
+                  </div>
+                </div>
+                )
+              }
+              
+            </div>
+         
+        
+        )
+      
+        
+      })
+    }
       </div>
-    </div>
   )
 }
 

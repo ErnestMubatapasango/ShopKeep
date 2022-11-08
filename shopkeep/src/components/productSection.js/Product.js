@@ -7,8 +7,8 @@ function Product() {
         {
           ProductItems.map((product, index) => {
             return(
-              <div key={index}>
-                <img className='product-image' src={product.image_url} alt='product-image' />
+              <div className='product-container' key={index}>
+                <img className='product-image' src={product.image_url} alt='product' />
                 <h2 className='product-title'>{product.title}</h2>
                 <p className='product-description'>{product.description}</p>
               </div>

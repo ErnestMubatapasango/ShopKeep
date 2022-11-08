@@ -8,10 +8,10 @@ function Services() {
       {
         ServiceItems.map((item, index) => {
           return(
-            <div className='service__wrapper'>
-              <h2>{item.title}</h2>
-              <img className='services-image' src={item.image_url} alt='image'/>
-              <p>{item.description}</p>
+            <div key={index} className='service__wrapper'>
+              <h2 className='services-title'>{item.title}</h2>
+              <img className='services-image' src={item.image_url} alt='service'/>
+              <p className='services-description'>{item.description}</p>
             </div>
           )
         })

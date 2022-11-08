@@ -3,6 +3,7 @@
   padding: 100px 150px;
   display: grid;
   grid-template-columns: repeat(2, 400px);
+  justify-content: center;
   gap: 4rem;
   text-align: center;
   height: 1000px;
@@ -21,4 +22,24 @@
 .product-description{
   font-size: 1.2rem;
   line-height: 1.8rem;
+}
+
+@media screen and (max-width: 760px){
+  .product__wrapper{
+    display: block;
+    width: 100%;
+    padding: 50px;
+    height: inherit;
+    gap: 5rem;
+  }
+  .product-container{
+    margin: 40px 0;
+  }
+  .product-title{
+    font-size: 1.5rem;
+  }
+  .product-description{
+    font-size: 1.1rem;
+  }
+ 
 }

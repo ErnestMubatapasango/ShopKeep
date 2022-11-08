@@ -13,9 +13,13 @@
   padding: 2rem 4rem;
   gap: 3rem;
 }
+.benefits-title{
+  color: purple;
+}
 .benefit-title{
   margin-bottom: 1rem;
   font-family: 'Circular Std', sans-serif;
+  color: purple;
 }
 .benefit-description{
   line-height: 1.8rem;
@@ -39,4 +43,32 @@
   color: white;
   font-weight: 600;
   font-style: italic;
+}
+
+@media screen and (max-width: 760px) {
+ .benefits__container{
+    width: 100%;
+    padding: 50px 20px;
+    height: inherit;
+ }
+ .benefits__wrapper{
+  display: block;
+  margin: 0px;
+  
+ }
+ .benefit__wrapper{
+  margin-top:50px; 
+ }
+ .call__container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+ }
+ .call-title{
+  font-size: 1.3rem;
+  padding-top: 20px;
+ }
+ .call__container p {
+  margin-bottom: 20px;
+ }
 }

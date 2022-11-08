@@ -19,4 +19,21 @@
   padding: 0px 300px;
   font-size: 1.1rem;
   text-align: center;
+  color: purple;
+}
+
+@media  screen and (max-width: 760px)  {
+  .dash-image{
+    width: 100%;
+  }
+  .dash__wrapper h2{
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .dash__wrapper p{
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }

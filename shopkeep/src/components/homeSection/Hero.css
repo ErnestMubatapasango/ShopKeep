@@ -8,6 +8,7 @@
   background-color: pink;
   background-size: cover;
   height: 600px;
+  width: 100%;
 }
 
 .tag__title{
@@ -61,4 +62,49 @@
 }
 .tag__wrapper p span{
   color: wheat;
+}
+
+@media screen and (max-width: 760px){
+  .hero__container{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding:50px 0px;
+    height: 700px;
+  }
+  .tag__wrapper{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .tag__image{
+    width: 300px;   
+  }
+  .tag__title{
+    font-size: 2rem;
+  }
+  .tag__description{
+    font-size: 1rem;
+  }
+  .call__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .call__wrapper input{
+    border-radius: 10px;
+    
+  }
+  .call__wrapper button{
+    width: 25rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
 }

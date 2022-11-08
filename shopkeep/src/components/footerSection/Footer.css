@@ -27,3 +27,13 @@
 .footer-address{
   color: purple;
 }
+@media screen and (max-width: 760px) {
+  .footer__row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__col{
+    text-align: center;
+  }
+}
