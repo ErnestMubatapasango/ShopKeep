@@ -1,7 +1,7 @@
 .pricing__container{
   background-color: pink;
   text-align: center;
-  padding: 4rem 0;
+  padding: 7rem 0;
 }
 .pricing__title {
   color: rgb(114, 40, 114);
@@ -17,6 +17,7 @@
   background-color: purple;
   color: orange;
   box-shadow: 10px 10px 10px  rgb(110, 59, 110);
+  border: 1px solid black;
 }
 
 hr{
@@ -28,6 +29,7 @@ hr{
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  
 }
 .price__package h3{
   font-size: 1.5rem;
@@ -66,10 +68,23 @@ hr{
 @media screen and (max-width: 760px) {
   .pricing__title{
     font-size: 2.2rem;
+   
   }
   .pricing__description{
     font-size: 1rem;
     color: purple;
     margin-top: 20px;
+  
+  }
+}
+@media screen and (max-width: 480px ) {
+ 
+
+  .package{
+    margin-left: 20px;
+    display: inline-block;
+    width: 300px;
+    text-align:left;
+    
   }
 }

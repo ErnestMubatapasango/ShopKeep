@@ -72,3 +72,15 @@
   margin-bottom: 20px;
  }
 }
+
+@media screen and (max-width: 480px) {
+  .call__container{
+    padding: 10px;
+  }
+  .call__wrapper input{
+    width: 18rem;
+  }
+  .call__wrapper button{
+    width: 18rem;
+  }
+}

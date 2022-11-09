@@ -5,7 +5,7 @@ function Hero() {
 
 
   return (
-    <div className='hero__container'>
+    <div className='hero__container' id='#'>
       <div className="tag__wrapper">
         <h1 className='tag__title'>Easy and reliable online<br/> 
           <span className='tag'>

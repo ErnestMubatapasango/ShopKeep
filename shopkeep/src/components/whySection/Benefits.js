@@ -4,7 +4,7 @@ import './Benefits.css'
 
 function Benefits() {
   return (
-    <div className='benefits__container'>
+    <div className='benefits__container' id='benefits'>
       <h2 className='benefits-title'>Why choose Shopkeep<br/>
           for online business management?
       </h2>
@@ -24,7 +24,7 @@ function Benefits() {
         }
       </div>
       
-      <div className='call__container'>
+      <div className='call__container' id='contact'>
         <h2 className='call-title'>Start loving business management - with Shopkeep</h2>
         <div className='call__wrapper '>
             <input type="text" placeholder='Email Address' className='input-content'/>

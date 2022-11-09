@@ -7,12 +7,12 @@ import Product from '../productSection.js/Product'
 import Review from '../reviewSection/Review'
 import Services from '../serviceSection/Services'
 import Benefits from '../whySection/Benefits'
-
+import './Home.css'
 function Home() {
   return (
-    <div>
+    <div className='home' id='home' >
       <Hero />
-      <Review /> 
+      <Review />  
       <Services />
       <Invoice />
       <Pricing />

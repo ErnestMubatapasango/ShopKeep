@@ -4,7 +4,7 @@ import './Services.css'
 
 function Services() {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
       {
         ServiceItems.map((item, index) => {
           return(

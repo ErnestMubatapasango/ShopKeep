@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+
 import { FooterItems } from './FooterItems'
 import './Footer.css'
 function Footer() {
@@ -21,9 +21,9 @@ function Footer() {
                 FooterItems.map((item, index) => {
                   return(
                     <li key={index}>
-                      <Link to='/' className={item.cName}>
+                      <a href='#services'  className={item.cName}>
                         {item.title}
-                      </Link>
+                      </a>
                     </li>
                   )
                 })
@@ -35,14 +35,14 @@ function Footer() {
             <h3 className='footer-content-title'>Company</h3>
             <ul>
               <li> 
-                <Link className='footer-link' to='/contact'>
+                <a className='footer-link' href='#contact'>
                   Contact
-                </Link>
+                </a>
               </li>
               <li>
-                <Link className='footer-link' to='/about'>
+                <a className='footer-link' href='#about'>
                   About Us
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
