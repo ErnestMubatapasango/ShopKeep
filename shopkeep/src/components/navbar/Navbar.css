@@ -1,7 +1,8 @@
 .navbar__container{
-  background-color: pink;
+  background-color: #E31C79;
   display:flex;
   justify-content: space-between;
+  padding: 0 100px;
   align-items: center;
   height: 80px;
   position:fixed;
@@ -59,7 +60,7 @@ li{
 @media screen and (max-width: 760px){
   .navbar__container{
     position: fixed;
-   
+    padding: 0;
   }
   .nav-menu{
     width: 100%;

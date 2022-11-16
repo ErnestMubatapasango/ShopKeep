@@ -4,8 +4,9 @@
   justify-content: center;
   background-color: #ee9ca7;
   gap: 1.5rem;
-  height: 400px;
-  
+  height: 450px;
+  padding: 0 100px;
+  margin-top: -80px;
 }
 .review__wrapper{
   display: flex;
@@ -30,9 +31,11 @@
 }
 .rating__title{
   color: white;
+  margin-top: .5rem;
 }
 .rating__job-title{
   color: white;
+  margin-top: .2rem;
 }
  .slider{
   position: absolute;
@@ -51,7 +54,7 @@
 .left-arrow{
   position: absolute;
   top: 150%;
-  left: 32px;
+  left: 160px;
   color: purple;
   z-index:1;
   user-select: none;
@@ -61,7 +64,7 @@
 .right-arrow{
   position: absolute;
   top: 150%;
-  right: 32px;
+  right: 160px;
   color: purple;
   z-index: 1;
   user-select: none;

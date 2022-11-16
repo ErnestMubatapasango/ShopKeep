@@ -1,5 +1,5 @@
 .benefits__container{
-  background-color: #ffdde1;
+  background-color:#FFC1CC;
   padding: 100px 150px;
   gap: 4rem;
   text-align: center;
@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 2rem;
-  padding: 2rem 4rem;
+  padding: 2rem 1rem;
   gap: 3rem;
 }
 .benefits-title{

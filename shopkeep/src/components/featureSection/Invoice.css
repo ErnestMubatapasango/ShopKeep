@@ -1,6 +1,6 @@
 .invoice__container{
-  background-color: #ffdde1;
-  padding: 50px;
+  background-color: #ee9ca7;
+  padding: 50px 150px;
   width: 100%;
 }
 .dash__wrapper{
@@ -15,8 +15,10 @@
   color: purple;
   font-family: "Circular Std", sans-serif;
 }
+.dash-image{
+  width: 98%;
+}
 .dash__wrapper p{
-  padding: 0px 300px;
   font-size: 1.1rem;
   text-align: center;
   color: purple;

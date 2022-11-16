@@ -21,7 +21,7 @@ export const ServiceItems = [
     description:'SMS Marketing is sending promotional campaigns or transactional messages for marketing purposes using text messages (SMS).'
   },
   {
-    title:'Multiple Currencies Support',
+    title:'Multi Currency Support',
     image_url:"multicurrency.png",
     description:'The Point of Sale System supports payment of goods and services using a multi-currency system, that is clients can pay using either USD , ZAR or ZWL',
   }

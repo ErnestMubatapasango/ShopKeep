@@ -15,7 +15,7 @@ function Prices() {
           <p>Includes all Shopkeep Plans</p>
           <hr />
           <div className='price-content'>
-            <p ><strong>What you will get with POS Lite</strong></p>
+            <p ><strong>What you will get with POS <br/> Lite</strong></p>
             <div className='package'>
               {
                 PriceItems.map((item, index) => {

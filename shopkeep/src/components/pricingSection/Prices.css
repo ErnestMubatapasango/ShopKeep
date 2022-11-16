@@ -1,14 +1,14 @@
 .pricing__container{
-  background-color: pink;
+  background-color: #E31C79;
   text-align: center;
-  padding: 7rem 0;
+  padding: 7rem 150px;
 }
 .pricing__title {
   color: rgb(114, 40, 114);
 }
 
 .price__package{
-  width: 330px;
+  width: 300px;
   min-height: 400px;
   margin: 50px 20px;
   border: 1px solid purple;
@@ -19,6 +19,11 @@
   box-shadow: 10px 10px 10px  rgb(110, 59, 110);
   border: 1px solid black;
 }
+.pricing__description{
+  color: purple;
+  font-weight: 500;
+  padding: 10px 0 ;
+}
 
 hr{
   color: black;
@@ -27,9 +32,7 @@ hr{
 .prices__wrapper{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  
+  justify-content: center; 
 }
 .price__package h3{
   font-size: 1.5rem;
@@ -40,7 +43,7 @@ hr{
   margin-bottom: .8rem ;
 }
 .package{
-  margin: 10px 50px;
+  margin: 10px 30px;
   display: inline-block;
   width: 300px;
   text-align:left;
@@ -75,6 +78,9 @@ hr{
     color: purple;
     margin-top: 20px;
   
+  }
+  .prices__wrapper{
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 480px ) {

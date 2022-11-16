@@ -2,23 +2,23 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 90px 50px;
-  gap: 5rem;
+  padding: 90px 100px;
+  gap: 4rem;
   font-family: "Circular Std", sans-serif;
-  background-color: pink;
+  background-color: #E31C79;
   background-size: cover;
-  height: 600px;
+  height: 500px;
   width: 100%;
 }
 
 .tag__title{
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin-bottom: 10px;
   font-weight: 900;
   color: white;
 }
 .tag__description{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: white;
   margin-bottom: 20px;
 }
@@ -26,7 +26,7 @@
   color: purple;
 }
 .tag__image{
-  width: 500px;
+  width: 380px;
 }
 
 .call__wrapper{
@@ -67,6 +67,7 @@
   .hero__container{
     height: 100vh;
     justify-content: center;
+    padding: 90px 100px;
   }
 }
 
@@ -76,7 +77,7 @@
     flex-direction: column-reverse;
     width: 100%;
     padding:50px 0px;
-    height: 700px;
+    height: 800px;
   }
   .tag__wrapper{
     text-align: center;
@@ -116,7 +117,7 @@
     .hero__container{
       gap: 2rem;
       padding: 10rem 0rem;
-      height: inherit;
+      height: 500px;
     }
     .tag__wrapper{
       text-align: center;
