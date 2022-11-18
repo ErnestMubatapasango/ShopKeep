@@ -26,6 +26,21 @@
 .product-container{
   margin:  0;
 }
+@media screen and (max-width: 1160px) {
+  .product__wrapper{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    gap: 1rem;
+    height: inherit;
+  }
+  .product-container{
+    width: 80%;
+    margin-left:  2rem;
+  }
+
+}
 
 @media screen and (max-width: 760px){
   .product__wrapper{
@@ -34,9 +49,11 @@
     padding: 50px;
     height: inherit;
     gap: 5rem;
+    
   }
   .product-container{
     margin: 40px 0;
+    width: 90%;
   }
   .product-title{
     font-size: 1.5rem;

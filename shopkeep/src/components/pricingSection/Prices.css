@@ -67,7 +67,11 @@ hr{
   border-radius: 30px;
   font-size: 1.2rem;
 }
-
+@media screen and (max-width: 1160px) {
+  .prices__wrapper{
+    flex-wrap: wrap;
+  }
+}
 @media screen and (max-width: 760px) {
   .pricing__title{
     font-size: 2.2rem;
@@ -84,13 +88,33 @@ hr{
   }
 }
 @media screen and (max-width: 480px ) {
- 
+ .pricing__container{
+    padding: 3rem 0;
+ }
 
   .package{
     margin-left: 20px;
     display: inline-block;
-    width: 300px;
-    text-align:left;
-    
+    width: 85%;
+    text-align:left;  
+  }
+  .pricing__description{
+    margin: 0;
+    padding: 0 1rem;
+    width: 100%;
+  }
+  .pricing__title{
+    width: 100%;
+    margin: 0;
+    padding:0 ;
+  }
+}
+@media screen and (max-width: 300px) {
+  .price__package{
+    box-shadow: none;
+    width: 270px;
+  }
+  .package-amount{
+    padding: 5px;
   }
 }

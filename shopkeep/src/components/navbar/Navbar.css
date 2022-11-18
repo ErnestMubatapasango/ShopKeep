@@ -101,10 +101,11 @@ li{
     font-size: 1.2rem;
   }
 }
-/* @media screen and (max-width:480px) {
-  .navbar__container{
-    width: 90%;
-    padding: 0;
-    margin: 0;
+@media screen and (max-width:480px) {
+  .menu-icon{
+    right: 10px;
   }
-} */
+  .nav-item.active{
+    border-radius: 0;
+  }
+}

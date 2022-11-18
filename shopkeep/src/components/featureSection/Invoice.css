@@ -16,7 +16,7 @@
   font-family: "Circular Std", sans-serif;
 }
 .dash-image{
-  width: 98%;
+  width: 100%;
 }
 .dash__wrapper p{
   font-size: 1.1rem;
@@ -39,4 +39,12 @@
     margin: 0;
     padding: 0;
   }
+}
+
+@media screen and (max-width: 480px){
+  .invoice__container{
+    padding: 50px;
+  }
+ 
+
 }

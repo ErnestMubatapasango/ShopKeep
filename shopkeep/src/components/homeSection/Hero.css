@@ -65,29 +65,40 @@
 }
 @media screen and (max-width: 2000px) {
   .hero__container{
-    height: 100vh;
+    height: 95vh;
     justify-content: center;
     padding: 90px 100px;
+    gap: 1rem;
   }
-}
-
-@media screen and (max-width: 760px){
-  .hero__container{
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    padding:50px 0px;
-    height: 800px;
+  .tag__image{
+    width: 500px;   
   }
   .tag__wrapper{
-    text-align: center;
+    
     width: 100%;
     margin: 0;
     padding: 0;
   }
-  .tag__image{
-    width: 300px;   
+}
+
+
+
+@media screen and (max-width: 1160px){
+  .hero__container{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding:0px 50px;
+    height: 800px;
+    gap: 1rem;
   }
+  .tag__wrapper{
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   .tag__title{
     font-size: 2rem;
   }
@@ -116,15 +127,16 @@
   @media screen and (max-width: 480px) {
     .hero__container{
       gap: 2rem;
-      padding: 10rem 0rem;
-      height: 500px;
+      padding: 10rem .5rem;
+      height: inherit;
+    }
+    .tag__image{
+      width: 90%;   
     }
     .tag__wrapper{
       text-align: center;
       width: 100%;
       margin: 0;
-      padding: 0 1rem;
-      
     }
     .call__wrapper{
       width: 100%;
@@ -132,10 +144,10 @@
       padding: 0;
     }
     .call__wrapper input{
-      width: 20rem;
+      width: 90%;
     }
     .call__wrapper button{
-      width: 20rem;
+      width: 90%;
     }
   }
 

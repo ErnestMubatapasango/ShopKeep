@@ -31,6 +31,12 @@
   color: wheat;
 }
 
+ @media screen and (max-width: 2000px) {
+  .services{
+    height: inherit;
+    padding: 50px;
+  }
+}
 @media  screen and (max-width: 760px) {
  .services{
 
@@ -39,7 +45,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+ 
  }
  .services-image{
   width: 10rem;
@@ -48,4 +54,9 @@
  .services-description{
   font-size: 1.1rem;
  }
+}
+@media screen and (max-width: 480px) {
+.service__wrapper{
+  width: 250px;
+}
 }
