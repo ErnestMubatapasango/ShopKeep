@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from '../contactsSection/Contact'
 import Invoice from '../featureSection/Invoice'
 import Footer from '../footerSection/Footer'
 import Hero from '../homeSection/Hero'
@@ -11,16 +12,19 @@ import './Home.css'
 function Home() {
   return (
     <div className='home' id='home' >
-      <Hero />
-      <Review />  
-      <Services />
-      <Invoice />
-      <Pricing />
-      <Product />
-      <Benefits />
-      <Footer />
+      <Hero />  
+      {/* <Review />  */}
+     <Services />
+        <Invoice />
+   <Pricing />
+          <Product />
+      <Benefits /> 
+     
+      <Contact />
+      <Footer /> 
     </div>
   )
+   
 }
 
 export default Home
