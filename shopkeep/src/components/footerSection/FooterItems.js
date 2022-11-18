@@ -13,10 +13,7 @@ export const FooterItems = [
     title: 'Financial Reports',
     cName: 'footer-link'
   },
-  {
-    title: 'Recurring Billing',
-    cName: 'footer-link'
-  },
+ 
   {
     title: 'Time Tracking',
     cName: 'footer-link'

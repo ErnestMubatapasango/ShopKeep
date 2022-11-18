@@ -155,12 +155,14 @@
       height: inherit;
     }
     .tag__image{
-      width: 90%;   
+      width: 80%;   
     }
+  
     .tag__wrapper{
       text-align: center;
       width: 100%;
       margin: 0;
+      padding: 30px;
     }
     .call__wrapper{
       width: 100%;
