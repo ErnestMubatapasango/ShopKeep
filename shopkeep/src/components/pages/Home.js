@@ -14,7 +14,6 @@ function Home() {
   return (
     <div className='home' id='home' >
       <Hero />  
-      {/* <Review2 />  */}
      <Services />
         <Invoice />
    <Pricing />
