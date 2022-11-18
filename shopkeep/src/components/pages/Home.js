@@ -5,7 +5,8 @@ import Footer from '../footerSection/Footer'
 import Hero from '../homeSection/Hero'
 import Pricing from '../pricingSection/Prices'
 import Product from '../productSection.js/Product'
-import Review from '../reviewSection/Review'
+
+import Review2 from '../reviewSection/Review2'
 import Services from '../serviceSection/Services'
 import Benefits from '../whySection/Benefits'
 import './Home.css'
@@ -13,7 +14,7 @@ function Home() {
   return (
     <div className='home' id='home' >
       <Hero />  
-      {/* <Review />  */}
+      {/* <Review2 />  */}
      <Services />
         <Invoice />
    <Pricing />
