@@ -95,7 +95,7 @@ hr{
 }
 @media screen and (max-width: 480px ) {
  .pricing__container{
-    padding: 3rem 1rem;
+    padding: 3rem ;
  }
 
   .package{
