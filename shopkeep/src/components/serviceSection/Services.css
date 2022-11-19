@@ -17,7 +17,7 @@
 }
 .services-title{
   font-size: 1.4rem;
-  color: wheat;
+  color: purple;
 }
 .services-image{
   margin: 30px 0;
@@ -28,7 +28,7 @@
   font-size: 1.2rem;
   line-height: 25px;
   text-align: center;
-  color: wheat;
+  color: purple;
 }
 
  @media screen and (max-width: 2000px) {
