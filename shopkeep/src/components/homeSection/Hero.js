@@ -19,7 +19,7 @@ function Hero() {
         </div>
         <p className='call-description'>Try the system out for a 7 week completely <span>FREE</span></p>
       </div>
-      <img className='tag__image' src='hero-image.png' alt='hero' />
+      <img className='tag__image' src='dashboard.png' alt='hero' />
     </div>
   )
 }

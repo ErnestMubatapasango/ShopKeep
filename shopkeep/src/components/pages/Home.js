@@ -14,12 +14,12 @@ function Home() {
   return (
     <div className='home' id='home' >
       <Hero />  
-      <Services />
+     <Services />
       <Invoice />
       <Pricing />
-      <Product />
+       <Product />
       <Benefits /> 
-      <Contact />
+     <Contact />
       <Footer /> 
     </div>
   )

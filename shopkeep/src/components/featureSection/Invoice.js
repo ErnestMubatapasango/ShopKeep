@@ -4,7 +4,7 @@ function Invoice() {
   return (
     <div className='invoice__container'>
       <div className='dash__wrapper'>
-        <img className='dash-image' src='dashboard.png' alt='' />
+        <img className='dash-image' src='invoice.png' alt='' />
         <h2>
           Everything you need in a simple, intuitive design.        
         </h2>

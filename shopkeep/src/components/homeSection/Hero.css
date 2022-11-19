@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   padding: 90px 100px;
-  gap: 4rem;
+  gap: 3rem;
   font-family: "Circular Std", sans-serif;
   background-color: #E31C79;
   background-size: cover;
@@ -26,7 +26,7 @@
   color: purple;
 }
 .tag__image{
-  width: 380px;
+  width: 450px;
 }
 
 .call__wrapper{
@@ -63,9 +63,9 @@
 .tag__wrapper p span{
   color: wheat;
 }
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 2000px) {
   .hero__container{
-    height: 95vh;
+    height: 80vh;
     justify-content: center;
     align-items: center;
     padding: 90px 200px;
@@ -84,14 +84,28 @@
     margin-bottom: 2rem;
   }
   .tag__wrapper{
-    
+   
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: auto;
+  }
+  .call__wrapper{
+    justify-content: center;
+    margin: 10px auto;
+
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1300px) {
+  .hero__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 200px;
+    height: 80vh;
+    width: 100%;
+    gap: 0rem;
+  }
   .tag__image{
     width: 500px;
   }
@@ -109,7 +123,7 @@
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
-    padding:0px 50px;
+    padding:40px 50px;
     height: 800px;
     gap: 1rem;
     text-align: center;
@@ -153,6 +167,9 @@
       gap: 2rem;
       padding: 10rem .5rem;
       height: inherit;
+    }
+     .tag__description br{
+      display: none;
     }
     .tag__image{
       width: 80%;   
