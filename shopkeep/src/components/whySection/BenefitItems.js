@@ -8,10 +8,7 @@ export const BenefitItems = [
     title: 'No Software to Install',
     description: 'Shopkeep is a cloud-based point of sale software: you don’t have to download or install anything.',
   },
-  {
-    title: 'Fast & Unlimited Support',
-    description: 'We take great pride in our support. Whether it’s a question about your account or how to use our online system features, you can always talk to us using the in-app chat, or quickly contact our team at support@shopkeep.com',
-  },
+
   {
     title: 'Import & Export Your Data',
     description: 'We value data portability, which is why you can save your invoices wherever you like. You can import and export your data and reports as CSV files, using our API, or with our convenient tools that connect to other software. We also personally assist with data migration for customers on the Plus plan.',

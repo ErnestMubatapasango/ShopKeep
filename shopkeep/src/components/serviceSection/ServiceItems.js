@@ -10,11 +10,7 @@ export const ServiceItems = [
     image_url: 'manage_customers.png',
     description: 'Serve your customers better by keeping them informed with timely quotations, invoices, payment receipts, account statements, time and expense reports, and more.'
   },
-  {
-    title: 'Manage Team',
-    image_url: 'manage_team.webp',
-    description: 'Let your employees track and bill for their work, selectively grant access to clients and projects, and share financial information securely within your team.'
-  },
+  
   {
     title: 'SMS Marketing',
     image_url:'smsmarketing.png',

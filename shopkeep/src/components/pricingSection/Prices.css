@@ -5,6 +5,7 @@
 }
 .pricing__title {
   color: rgb(114, 40, 114);
+  font-family: "Poppins", sans-serif;
 }
 
 .price__package{
@@ -23,8 +24,8 @@
   color: purple;
   font-weight: 500;
   padding: 10px 0 ;
+  font-family: 'Circular Std', sans-serif;
 }
-
 hr{
   color: black;
   margin: 0 50px;
@@ -37,10 +38,12 @@ hr{
 .price__package h3{
   font-size: 1.5rem;
   margin-bottom: .5rem;
+  font-family: 'Poppins', sans-serif;
 }
 .price__package p{
   font-size: 1rem;
-  margin-bottom: .8rem ;
+  margin-bottom: .8rem;
+  font-family: 'Circular Std', sans-serif
 }
 .package{
   margin: 10px 30px;
@@ -66,6 +69,7 @@ hr{
   padding: 5px;
   border-radius: 30px;
   font-size: 1.2rem;
+  font-family: Helvetica;
 }
 @media screen and (min-width: 2000px) {
   .prices__wrapper{

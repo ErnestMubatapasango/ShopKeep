@@ -15,14 +15,16 @@
 }
 .benefits-title{
   color: purple;
+  font-family: 'Poppins', sans-serif;
 }
 .benefit-title{
   margin-bottom: 1rem;
-  font-family: 'Circular Std', sans-serif;
   color: purple;
+  font-family: 'Poppins', sans-serif;
 }
 .benefit-description{
   line-height: 1.8rem;
+  font-family: 'Circular Std', sans-serif;
 }
 
 @media screen and (max-width: 1150px) {
