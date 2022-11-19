@@ -25,6 +25,9 @@
   font-style: italic;
 }
 
+.call__container p{
+  font-family: 'Circular Std', sans-serif;
+}
 
 @media screen and (max-width: 760px){
   .call__container{

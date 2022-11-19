@@ -23,9 +23,16 @@
   text-decoration: none;
   color: purple;
   font-size: 1.1rem;
+  font-family: 'Circular Std', sans-serif;
 }
 .footer-address{
   color: purple;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.footer-logo-tag{
+  font-family: 'Circular Std', sans-serif;
 }
 
 @media screen and (max-width:1150px) {

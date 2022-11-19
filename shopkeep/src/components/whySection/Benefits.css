@@ -3,7 +3,7 @@
   padding: 100px 150px;
   gap: 4rem;
   text-align: center;
-  height: 1000px;
+  height: inherit;
 }
 
 .benefits__wrapper{
@@ -16,11 +16,13 @@
 .benefits-title{
   color: purple;
   font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
 }
 .benefit-title{
   margin-bottom: 1rem;
   color: purple;
   font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
 }
 .benefit-description{
   line-height: 1.8rem;
