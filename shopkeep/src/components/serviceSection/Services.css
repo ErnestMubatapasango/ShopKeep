@@ -18,6 +18,7 @@
 .services-title{
   font-size: 1.4rem;
   color: purple;
+  font-family: 'Poppins', sans-serif;
 }
 .services-image{
   margin: 30px 0;
@@ -29,6 +30,7 @@
   line-height: 25px;
   text-align: center;
   color: purple;
+  font-family:  Helvetica, sans-serif;
 }
 
  @media screen and (max-width: 2000px) {
